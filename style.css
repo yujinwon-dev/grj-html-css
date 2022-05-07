@@ -75,32 +75,32 @@ section {
   margin: 1rem;
 }
 
+.card img {
+  display: block;
+  width: auto;
+  max-width: 150px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card p {
+  text-align: center;
+}
+
 @media screen and (max-width: 1200px) {
-  article {
+  .card {
     background-color:#a8c6f7;
   }
 }
 
 @media screen and (max-width: 900px) {
-  article {
+  .card {
     background-color:#c4a8f7;
   }
 }
 
 @media screen and (max-width: 600px) {
-  article {
+  .card {
     background-color:#ccf7c1;
   }
-}
-
-article img {
-  display: block;
-  width: auto;
-  max-width: 150px;
-  height: 200px;
-  overflow: hidden;
-}
-
-article p {
-  text-align: center;
 }
